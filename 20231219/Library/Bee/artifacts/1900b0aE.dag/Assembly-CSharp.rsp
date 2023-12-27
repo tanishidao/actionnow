@@ -366,6 +366,7 @@
 "Assets/EvolveGames/RealisticFPSController/Scripts/TextWriter.cs"
 "Assets/EvolveGames/RealisticFPSController/Scripts/Viewpoint.cs"
 "Assets/OutPost/Resources/Scripts/FPS_Camera.cs"
+"Assets/YachiScripts/DeadReload.cs"
 -langversion:9.0
 
 /deterministic
