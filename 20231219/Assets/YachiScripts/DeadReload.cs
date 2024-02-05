@@ -21,7 +21,7 @@ public class DeadReload : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Respowened == true && Input.GetKeyDown(KeyCode.E))
+        if (Respowened == true && Input.GetKeyDown(KeyCode.E))
         {
             Player.transform.position = ResPos.transform.position;
             Respowened = false;
@@ -42,15 +42,16 @@ public class DeadReload : MonoBehaviour
         if (other.gameObject == Player)
         {
             target = other.gameObject;
-            target.GetComponent<CharacterController>().enabled = false;
+            //target.GetComponent<CharacterController>().enabled = false;
             Player.transform.position = ResPos.transform.position;
             Respowened = true;
-         
-            Invoke("ResetC", 0.5f);
+
+            // Invoke("ResetC", 0.5f);
         }
     }
-    void ResetC()
+    /*void ResetC()
     {
         target.GetComponent<CharacterController>().enabled = true;
     }
+    */
 }
