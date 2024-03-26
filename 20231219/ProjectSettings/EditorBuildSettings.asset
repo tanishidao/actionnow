@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/YAchiScenes/DemoScene.unity
+  - enabled: 0
+    path: Assets/YachiScenes/DemoScene.unity
     guid: ab0b46e2e44b5d14f99aff193b77d1c2
+  - enabled: 1
+    path: Assets/YachiScenes/StartStage.unity
+    guid: 022d3e73c90c61d4c9d4f9208179d97d
+  - enabled: 1
+    path: Assets/YachiScenes/MainStage.unity
+    guid: 3de8f2afe46df40468732477062ca76d
+  - enabled: 1
+    path: Assets/YachiScenes/EndStage.unity
+    guid: 9a922196d151ab549806552cde292b48
   m_configObjects: {}
